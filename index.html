@@ -1,0 +1,117 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <link href="css/test.css" rel="stylesheet">
+
+    <script src="js/jquery.js"></script>
+
+    <script src="js/about.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <div class="row" style="margin-right:0px;">
+                        <a href="#" style="text-align:center;">
+                            <img src="images/TNCA1.png" id="brandLogo">
+                        </a>
+                    </div>
+                </li>
+                <br>
+                <li>
+                    <a href="#" onclick="dashboardPage()">Home</a>
+                </li>
+                <li>
+                    <a href="#" onclick="openAboutPage()">About us</a>
+                </li>
+                <li>
+                    <a href="#" onclick="openContactPage()">All About Chit</a>
+                </li>
+                <li>
+                    <a href="#" onclick="openContactPage()">Chit Fund Acts</a>
+                </li>
+                <li>
+                    <a href="#" onclick="openContactPage()">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+           <!--<a href="#menu-toggle" id="menu-toggle"><img src="images/menu.png" id="menuIcon"></a>    -->
+            <div class="container-fluid">
+                <!--<div class="row" style="background:url('images/wall.jpg'); background-size:cover;" >-->
+                <div class="row" style="background:#383830;">
+                    <div class="col-lg-1 pageHeader">
+                        <a href="#menu-toggle" id="menu-toggle"><img src="images/menu.png" id="menuIcon"></a>                        
+                    </div>
+
+                    <div class="col-lg-11">
+                        <h5>
+                            <div class="row" style="text-align:right; font-weight:bold; color:#A52A2A;">
+                                WELCOME TO 
+                            </div>
+                        </h5>
+                        <h4>
+                            <div class="row" style="text-align:right; color:#d1baa3; font-family: Georgia,serif; font-size: 25px;">
+                                TAMILNADU CHIT FUND COMPANIES ASSOCIATION
+                            </div>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="row" id="dashboardContent" style="height:100%; background:#d1baa3;"> </div>
+
+                <div class="row" id="aboutContent" style="height:100%; background:yellow;"> </div>
+
+                <div class="row" id="contactContent" style="height:100%; background:red;"> </div>
+
+                
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+
+    <!-- Bootstrap Core JavaScript -->
+
+    <!-- Menu Toggle Script -->
+
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</body>
+
+</html>
