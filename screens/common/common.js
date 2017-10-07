@@ -6,6 +6,11 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
-function openProductModal(){
+function openProductModal(products){
+	selectedProduct = products;
+	
+	if(selectedProduct == 'rice'){
+
+	}
 	$('#product').modal({backdrop: 'static', keyboard: false});
 }

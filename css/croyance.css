@@ -30,7 +30,7 @@
     .carousel-inner img {
      /*-webkit-filter: grayscale(90%);
       filter: grayscale(90%); /* make all photos black and white */
-      margin-top:25% !important;
+      /*margin-top:25% !important;*/
       height:100%;
       width: 100%; /* Set width to 100% */
       margin: auto;
@@ -255,7 +255,7 @@
 }
 
 #productBody{
-  background-image: url("../images/shapepattern.png");
+  background-image: url("../images/polygon.jpg");
   height:85%;
   opacity:0.1;
 }
