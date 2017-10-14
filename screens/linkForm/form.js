@@ -1,5 +1,7 @@
 $(function(){
 		$("#product").load("screens/product/productModal");
+		/*$("#riceContent").load("screens/product/riceProductModal/riceProductModal");*/
+		
 
   	/*$("#aboutUsForm").load("screens/aboutUs/aboutUsModal");
    	$("#dashboardForm").load("screens/dashboard/dashboardMainLayer");
