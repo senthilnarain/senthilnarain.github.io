@@ -9,22 +9,17 @@
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <link href="vendor/jquery.scrollbar-master/jquery.scrollbar.css" rel="stylesheet">
-  
   
   <!--<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"> -->
   <script src="vendor/jquery/jquery.js"></script>
   <script src="screens/common/common.js"></script>
   <script src="screens/linkForm/form.js"></script>
-  <script src="vendor/jquery.scrollbar-master/jquery.scrollbar.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="vendor/googleMap.js"></script>
   <link href="css/croyance.css" rel="stylesheet">
   <script>
             jQuery(document).ready(function(){
-              jQuery('.scrollbar-outer').scrollbar();
-
               $(window).scroll(function(){
                   if ($(this).scrollTop() > 200) {
                       $('.moveTop').fadeIn();
@@ -43,7 +38,6 @@
     </script>
 </head>
 <body id="myPage" data-target=".navbar">
-<div class="scrollbar-outer">
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -58,14 +52,22 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right" id ="desktopViewMenu">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#aboutUs">ABOUT US</a></li>
+        <li><a href="#products">PRODUCTS</a></li>
+        <li><a href="#certificates">CERTIFICATES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right" id ="mobileViewMenu">
         <li data-toggle="collapse" data-target="#myNavbar"><a href="#myPage">HOME</a></li>
         <li data-toggle="collapse" data-target="#myNavbar"><a href="#aboutUs">ABOUT US</a></li>
-        <!-- <li><a data-toggle="modal" onclick="openProductModal()">PRODUCTS</a></li> -->
         <li data-toggle="collapse" data-target="#myNavbar"><a href="#products">PRODUCTS</a></li>
         <li data-toggle="collapse" data-target="#myNavbar"><a href="#certificates">CERTIFICATES</a></li>
-        <li data-toggle="collapse" data-target="#myNavbar"><a href="#contact">CONTACT</a></li>        
+        <li data-toggle="collapse" data-target="#myNavbar"><a href="#contact">CONTACT</a></li>
       </ul>
+
     </div>
   </div>  
 </nav>
@@ -399,7 +401,6 @@ $(document).ready(function(){
   });
 })
 </script>-->
-</div>
 </body>
 
 </html>

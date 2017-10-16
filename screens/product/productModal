@@ -6,7 +6,7 @@
           <button type="button" class="close rotateImg" data-dismiss="modal">×</button>
           <h4><span><img src="images/product.png"></span>  PRODUCTS</h4>
         </div>
-        <div class="modal-body" style="height:80%;overflow-y:scroll;">
+        <div class="modal-body" style="height:80%;overflow-y:auto;">
           
           <div class="row" id ="riceContent" style="display:none;">
             <div class="col-md-12">
