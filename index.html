@@ -24,6 +24,20 @@
   <script>
             jQuery(document).ready(function(){
               jQuery('.scrollbar-outer').scrollbar();
+
+              $(window).scroll(function(){
+                  if ($(this).scrollTop() > 200) {
+                      $('.moveTop').fadeIn();
+                  } else {
+                      $('.moveTop').fadeOut();
+                  }
+              });
+
+              //Click event to scroll to top
+              $('.moveTop').click(function(){
+                  $('html, body').animate({scrollTop : 0},800);
+                  return false;
+              });
             });
 
     </script>
@@ -45,15 +59,15 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
-        <li><a href="#aboutUs">ABOUT US</a></li>
+        <li data-toggle="collapse" data-target="#myNavbar"><a href="#myPage">HOME</a></li>
+        <li data-toggle="collapse" data-target="#myNavbar"><a href="#aboutUs">ABOUT US</a></li>
         <!-- <li><a data-toggle="modal" onclick="openProductModal()">PRODUCTS</a></li> -->
-        <li><a href="#products">PRODUCTS</a></li>
-        <li><a href="#certificates">CERTIFICATES</a></li>
-        <li><a href="#contact">CONTACT</a></li>        
+        <li data-toggle="collapse" data-target="#myNavbar"><a href="#products">PRODUCTS</a></li>
+        <li data-toggle="collapse" data-target="#myNavbar"><a href="#certificates">CERTIFICATES</a></li>
+        <li data-toggle="collapse" data-target="#myNavbar"><a href="#contact">CONTACT</a></li>        
       </ul>
     </div>
-  </div>
+  </div>  
 </nav>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -103,7 +117,7 @@
 </div>
 
 <!-- Container (About Us Section) -->
-<div id="aboutUs" class="container text-center">
+<div id="aboutUs" class="container text-center" data-target="#myNavbar">
   <h3 class="text-center">WE @ CROYANCE</h3>
   <p><em>We love export import!</em></p>
   <p>Based in Chennai, Tamilnadu (India), Croyance Exim Trade is widely revered for its high quality products. Customers can rely on us for delivering small or bulk orders of the product within the postulated time. </p>
