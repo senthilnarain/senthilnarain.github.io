@@ -35,11 +35,6 @@
               });
             });
 
-            $(document).ready(function(){
-                $(".backup_picture").on("error", function(){
-                    $(this).attr('src', 'images/map_location.png');
-                });
-            });
     </script>
 </head>
 <body id="myPage" data-target=".navbar">
@@ -312,8 +307,7 @@
       <p class="text-center"><span><img src="images/email.png"></span> croyance@gmail.com</p>
     </div>
     <div class="col-md-6">
-      <!-- <a href="https://www.google.com/maps/dir//13.103113,+80.100693/" target="_blank"><img src="https://maps.googleapis.com/maps/api/staticmap?center=13.103113,+80.100693&zoom=17&scale=false&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C13.103113,+80.100693" class="backup_picture" id="googleMap"></a> -->
-      <a href="https://www.google.com/maps/dir//13.103113,+80.100693/" target="_blank"><img src="images/map_location.png" class="backup_picture" id="googleMap"></a>
+      <a href="https://www.google.com/maps/dir//13.103113,+80.100693/" target="_blank"><img src="images/map_location.png" id="googleMap"></a>
     </div>
    <!-- <div class="col-md-8">
       <div class="row">
