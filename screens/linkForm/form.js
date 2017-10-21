@@ -1,5 +1,6 @@
 $(function(){
 		$("#product").load("screens/product/productModal");
+    $("#certificateModal").load("screens/certificates/certificatesModal");
 		/*$("#riceContent").load("screens/product/riceProductModal/riceProductModal");*/
 		
 

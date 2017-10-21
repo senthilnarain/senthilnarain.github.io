@@ -1,10 +1,3 @@
- function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
 
 function hideAllProductContents(){
 	$('#riceContent').hide();
@@ -44,6 +37,6 @@ function openProductModal(products){
 		hideAllProductContents();
 		$('#sugarContent').show();
 	}
-
+	$("#productScrollTopPosition").animate({ scrollTop: 0 }, "slow");
 	$('#product').modal({backdrop: 'static', keyboard: false});
 }
