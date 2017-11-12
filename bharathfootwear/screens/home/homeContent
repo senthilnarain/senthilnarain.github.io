@@ -59,7 +59,7 @@
             <!-- Welcome Message -->
             <div class="text-center mt-4">
                 <div class="text-heading text-muted text-lg">Welcome To</div>
-                <h2 class="my-2">Bharat Footwear</h2>
+                <h2 class="my-2">Bharath Footwear</h2>
                 
             </div>
         </div>
@@ -68,15 +68,22 @@
             <hr class="divider">
             <h2 class="text-center text-lg text-uppercase my-0"><strong>About Us</strong></h2>
             <hr class="divider">
-            <p class="text-center">We at Bharat Footwear have been selling footwear for well over 20 years now, for the style-conscious people.</p>
-            
+            <p class="text-center">We at Bharath Footwear have been providing fashionable and customized footwears across various generations since 1983.</p>
         </div>
 
-        <!-- <div class="bg-faded p-4 my-4">
+         <div class="bg-faded p-4 my-4 text-center">
             <hr class="divider">
-            <h2 class="text-center text-lg text-uppercase my-0">Beautiful boxes to <strong>showcase your content</strong></h2>
+            <h2 class="text-lg text-uppercase my-0">MAJOR<strong> BRANDS</strong> WE DEAL</h2>
             <hr class="divider">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="img/vkc_logo_grey.png">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/paragon_logo_grey.png">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/bata_logo_grey.png">
+                </div>
+            </div>
         </div>
- -->
