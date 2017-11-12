@@ -76,13 +76,13 @@
             <h2 class="text-lg text-uppercase my-0">MAJOR<strong> BRANDS</strong> WE DEAL</h2>
             <hr class="divider">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 brandLogos">
                     <img src="img/vkc_logo_grey.png">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 brandLogos">
                     <img src="img/paragon_logo_grey.png">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 brandLogos">
                     <img src="img/bata_logo_grey.png">
                 </div>
             </div>
